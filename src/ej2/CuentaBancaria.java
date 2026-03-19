@@ -3,8 +3,8 @@ package ej2;
 import java.util.Scanner;
 
 public class CuentaBancaria {
-    String titular;
-    double saldo;
+    private String titular;
+    private double saldo;
 
     public CuentaBancaria(String titular, double saldo){
         this.titular = titular;
@@ -35,7 +35,7 @@ public class CuentaBancaria {
         System.out.println("El saldo actual es de: " + saldo);
     }
 
-    private double ingresarDouble(String msg){
+    private double ingresarDouble(String msg){//el main le pasa los datos. mal
         Scanner sc = new Scanner(System.in);
         System.out.print(msg);
         double n = sc.nextDouble();

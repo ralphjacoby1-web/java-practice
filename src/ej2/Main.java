@@ -7,9 +7,9 @@ public class Main {
         p2.mostrarNombre();
 
         Auto a1 = new Auto("Ford","Mondeo");
-        a1.acelerar();
+        a1.acelerar(100);
         a1.mostrarVelocidad();
-        a1.frenar();
+        a1.frenar(10);
         a1.mostrarVelocidad();
 
 
