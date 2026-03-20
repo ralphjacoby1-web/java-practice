@@ -9,11 +9,11 @@ public class Alumno {
         this.nota = nota;
     }
 
-    String getNombre(){
+    public String getNombre(){
         return this.nombre;
     }
 
-    double getNota(){
+    public double getNota(){
         return this.nota;
     }
 
